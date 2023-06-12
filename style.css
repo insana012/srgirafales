@@ -59,6 +59,7 @@ a {
     margin-right: 0px;
     width: 200px;
     overflow: hidden;
+    
   }
 
 .search-button:hover {
@@ -66,7 +67,7 @@ a {
     color: black;
     transform: scale(1.05);
     font-weight: bold;
-    font-style: space-between;
+    overflow: hidden;
   }
 
 .search-button:active {
@@ -181,7 +182,7 @@ a {
 /* HEADER */
 
 @media (max-width: 768px) {
-  .search-input, #search-button, .img-menu {
+  .search-input, .search-button, .img-menu {
     display: none;
   }
 }
