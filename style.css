@@ -177,13 +177,23 @@ a {
 .dropdown:hover .dropdown-content {
     display: block;
   }
+  
+.dropdown-menu {
+  display: none;
+  background-color: red;
+}
 /* HEADER */
 
 @media (max-width: 768px) {
-  .search-input, .search-button, .img-menu {
-    display: none;
+    .search-input, .search-button, .img-menu {
+      display: none;
   }
 }
 
+@media (min-width: 768px) {
+    .dropdown-menu {
+      display: flex;
+      flex-direction: column;
+}
 
 
