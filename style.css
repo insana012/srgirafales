@@ -131,14 +131,12 @@ a {
     justify-content: center;
     align-items: center;  
     gap: 70px;
+    overflow: hidden;
 }
-
+  
 .dropdown {
     float: right;
     overflow: hidden;
-  }
-  
-.dropdown {
     font-size: 17px;  
     border: none;
     outline: none;
